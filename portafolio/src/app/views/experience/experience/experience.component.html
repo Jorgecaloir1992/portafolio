@@ -1,0 +1,23 @@
+<div class="experience">
+    <h2>Experiencia</h2>
+    <div *ngFor="let experience of experiences">
+        <div class="items-experence">
+            <div>
+                <h4>{{experience.cargo}}</h4>
+            </div>
+            <div>
+                <h4>{{experience.empresa}}</h4>
+            </div>
+            <div>
+                <p>tiempo</p>
+            </div>
+            <div>
+                <p>{{experience.resumen.uno}}</p>
+                <p>{{experience.resumen.dos}}</p>
+                <p>{{experience.resumen.tres}}</p>
+                <p>{{experience.resumen.cuatro}}</p>
+                <p>{{experience.resumen.cinco}}</p>
+            </div>
+        </div>
+    </div>
+</div>

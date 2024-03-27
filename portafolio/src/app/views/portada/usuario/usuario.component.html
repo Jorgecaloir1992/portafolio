@@ -1,0 +1,30 @@
+<div class="row">
+  <div class="biography">
+   <div>
+    <h2 class="h2-biography animated-title">Jorge Gregorio Caloir Perez</h2>
+    <p class="p-biography">Full Stack Developer</p>
+   </div>
+    <img class="image-biography" src="../../../../assets/images/esta.png" width="300px" alt="">
+  </div>
+ <!-- <div class="contact">
+    <div class="items-contact">
+      <a [href]="linkedin" target="_blank" class="btn btn-primary me-3 ">
+        <img class="img-contact" src="../../../../assets/images/linkedin.png" alt="">
+      </a>
+    </div>
+    <div class="items-contact">
+      <a href="gitHub">
+        <img class="img-contact" src="../../../../assets/images/png_github.png" alt="">
+      </a>
+    </div>
+  </div>-->
+  <div class="skills">
+    <h1 class="skill-Tittle">Skills</h1>
+    <div class="framework">
+      <div *ngFor="let element of elements" class="framework-wrap skills-card">
+        <img class="image-framework" [src]="element.img" alt="{{element.img}}">
+      </div>
+    </div>
+  </div>
+</div>
+
